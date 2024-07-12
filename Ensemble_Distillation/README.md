@@ -28,13 +28,7 @@ python OURS.py  --dataset=svhn --beta=0.1 --attention=1 --ce=0 --device 1;python
 python OURS.py  --dataset=svhn --beta=0.3 --attention=1 --ce=0 --device 1;python OURS.py  --dataset=svhn --beta=0.3 --attention=1 --adv=0 --device 1;python OURS.py  --dataset=svhn --beta=0.3 --attention=1 --device 1;python OURS.py  --dataset=svhn --beta=0.3 --attention=0 --ce=0 --device 1;python OURS.py  --dataset=svhn --beta=0.3 --attention=0 --adv=0 --device 1;python OURS.py  --dataset=svhn --beta=0.3 --attention=0 --device 1;python OURS.py  --dataset=svhn --beta=0.3  --ensem=0 --device 1;python OURS.py  --dataset=svhn --beta=0.3  --mh=0 --device 1;
 
 python OURS.py  --dataset=svhn --beta=0.5 --attention=1 --ce=0 --device 2;python OURS.py  --dataset=svhn --beta=0.5 --attention=1 --adv=0 --device 2;python OURS.py  --dataset=svhn --beta=0.5 --attention=1 --device 2;python OURS.py  --dataset=svhn --beta=0.5 --attention=0 --ce=0 --device 2;python OURS.py  --dataset=svhn --beta=0.5 --attention=0 --adv=0 --device 2;python OURS.py  --dataset=svhn --beta=0.5 --attention=0 --device 2;python OURS.py  --dataset=svhn --beta=0.5  --ensem=0 --device 2;python OURS.py  --dataset=svhn --beta=0.5  --mh=0 --device 2;
-# DENSE: Data-Free One-Shot Federated Learning
 
-This repository is the official PyTorch implementation of:
-
-[DENSE: Data-Free One-Shot Federated Learning (NeurIPS 2022)](https://arxiv.org/abs/2112.12371).
-
-<img width="1530" alt="image" src="https://user-images.githubusercontent.com/33173674/206908843-00928ac2-0d1f-4636-8023-5ed37c893140.png">
 
 
 ## Requirements
